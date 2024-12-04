@@ -1,0 +1,26 @@
+{
+	"ApplicationSync": {
+		"setToken": {
+			"!type": "fn(token: +Object) -> void"
+		},
+		"setReportingParams": {
+			"!type": "fn(reportingParams: +Object) -> void"
+		},
+		"setupSyncWithOptionsOnSuccessOnFailure": {
+			"!type": "fn(objectServiceList: +Object, options: +Object, onSuccess: +Function, onFailure: +Function) -> void"
+		},
+		"dropOnSuccessOnFailure": {
+			"!type": "fn(options: +Object, onSuccess: +Function, onFailure: +Function) -> void"
+		},
+		"resetWithOptionsOnSuccessOnFailure": {
+			"!type": "fn(objectServiceList: +Object, options: +Object, onSuccess: +Function, onFailure: +Function) -> void"
+		},
+		"rollbackOnFailure": {
+			"!type": "fn(onSuccess: +Function, onFailure: +Function) -> void"
+		},
+		"executeSelectQueryOnSuccessOnFailure": {
+			"!type": "fn(query: +Object, onSuccess: +Function, onFailure: +Function) -> void"
+		},
+		"startSyncOnSuccessOnFailureOnProgress": {
+			"!type": "fn(options: +Object, onSuccess: +Function, onFailure: +Function, onProgress: +Function) -> void"
+		},

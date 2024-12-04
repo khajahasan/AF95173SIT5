@@ -1,0 +1,11 @@
+{
+	"KNYHTTPMessageIntegrityManager": {
+		"sharedInstance": {
+			"!type": "fn() -> +KNYHTTPMessageIntegrityManager"
+		},
+		"setIntegrityCheckError": {
+			"!type": "fn(properties: +Object, error: +Object) -> +Object"
+		},
+		"removeIntegrityCheck": {
+			"!type": "fn() -> void"
+		},

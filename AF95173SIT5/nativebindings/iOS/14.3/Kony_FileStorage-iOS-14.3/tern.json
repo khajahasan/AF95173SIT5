@@ -1,0 +1,23 @@
+{
+	"BinaryFileStorageInterface": {
+		"getFilesWithUrlCriteriaHeadersOnSuccessOnFailureOptions": {
+			"!type": "fn(url: +Object, criteria: +Object, headers: +Object, onSuccess: +Function, onFailure: +Function, options: +Object) -> void"
+		},
+		"uploadBinaryWithUrlInputTypeUploadParamsOnSuccessOnFailureOnProgressOptions": {
+			"!type": "fn(url: +Object, uploadInputType: +Object, uploadParams: +Object, onSuccess: +Function, onFailure: +Function, onProgress: +Function, options: +Object) -> void"
+		},
+		"downloadWithURLParamsOnSuccessOnFailureOnProgressOptions": {
+			"!type": "fn(url: +Object, downloadParams: +Object, onSuccess: +Function, onFailure: +Function, onProgress: +Function, options: +Object) -> void"
+		},
+		"updateWithUrlParamsOnSuccessOnFailureOptions": {
+			"!type": "fn(url: +Object, updateParams: +Object, onSuccess: +Function, onFailure: +Function, options: +Object) -> void"
+		},
+		"deleteWithUrlFileIdDeleteParamsHeadersOnSuccessOnFailureOptions": {
+			"!type": "fn(url: +Object, fileId: +Object, deleteParams: +Object, headers: +Object, onSuccess: +Function, onFailure: +Function, options: +Object) -> void"
+		},
+		"deleteByCriteriaDeleteCriteriaHeadersOnSuccessOnFailureOptions": {
+			"!type": "fn(url: +Object, deleteCriteria: +Object, headers: +Object, onSuccess: +Function, onFailure: +Function, options: +Object) -> void"
+		},
+		"abortWithUrlFileIdAbortParamsHeadersOnSuccessOnFailureOptions": {
+			"!type": "fn(url: +Object, fileId: +Object, abortParams: +Object, headers: +Object, onSuccess: +Function, onFailure: +Function, options: +Object) -> void"
+		},
